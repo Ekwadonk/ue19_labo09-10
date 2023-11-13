@@ -1,3 +1,7 @@
+
+![capture1](https://github.com/Ekwadonk/ue19_labo09-10/assets/148845724/86903d7b-004c-40fa-9c2f-20687aac8ff9)
+![capture2](https://github.com/Ekwadonk/ue19_labo09-10/assets/148845724/0fa88d81-ecc5-43bb-adb1-2f3f135524b6)
+
 ```markdown
 # Chuck Norris Joke Fetcher
 
