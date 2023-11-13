@@ -2,10 +2,10 @@
 FROM python:3
 
 # Définition du répertoire de travail dans le conteneur
-WORKDIR ./
+WORKDIR /app
 
 # Copie des fichiers locaux dans le conteneur
-COPY requirements.txt
+COPY . /app
 
 # Installation des dépendances
 RUN pip install --no-cache-dir -r requirements.txt
