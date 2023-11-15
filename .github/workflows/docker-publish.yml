@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Docker
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
 on:
   push:
@@ -43,7 +43,7 @@ jobs:
       - name: Run Trivy vulnerability scanner
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'ghcr.io/Ekwadonk/ue19_labo09-10:main'
+          image-ref: 'ghcr.io/ekwadonk/ue19_labo09-10:main'
           format: 'table'
           exit-code: '1'
           severity: 'CRITICAL,HIGH'
