@@ -1,4 +1,4 @@
-name: Docker Image Create And Push
+name: Docker Image CI
 # Configures this workflow to run every time a change is pushed to the branch called `release`.
 on:
   push:
